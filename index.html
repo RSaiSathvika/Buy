@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f7f6; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Header Section -->
+    <header class="bg-gradient-to-r from-blue-500 to-indigo-600 text-white p-6 shadow-lg rounded-b-xl">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold mb-2">Welcome to Our Store!</h1>
+            <p class="text-lg">Discover amazing products tailored for you.</p>
+        </div>
+    </header>
+
+    <!-- Main Content - Products Section -->
+    <main class="container mx-auto p-8 flex-grow">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Product Card 1 -->
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <img src="https://placehold.co/600x400/007BFF/FFFFFF?text=Product+A" alt="Product A" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-2">Cool Gadget Pro</h2>
+                    <p class="text-gray-600 text-lg mb-4">
+                        Experience the future with this cutting-edge gadget. Packed with innovative features and sleek design.
+                    </p>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="text-4xl font-bold text-indigo-700">$299.99</span>
+                        <span class="text-sm text-gray-500 line-through">$399.99</span>
+                    </div>
+                    <!-- Buy Button for Product 1 -->
+                    <a href="product_detail.html?product=gadget_pro" class="block w-full bg-blue-600 text-white py-3 px-6 rounded-full text-center text-xl font-bold hover:bg-blue-700 transition-colors duration-300 shadow-md">
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="bg-white rounded-lg shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105">
+                <img src="https://placehold.co/600x400/28A745/FFFFFF?text=Product+B" alt="Product B" class="w-full h-64 object-cover">
+                <div class="p-6">
+                    <h2 class="text-3xl font-semibold text-gray-800 mb-2">Eco-Friendly Smartwatch</h2>
+                    <p class="text-gray-600 text-lg mb-4">
+                        Stay connected and track your fitness with our sustainable smartwatch. Made with recycled materials.
+                    </p>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="text-4xl font-bold text-green-700">$149.50</span>
+                        <span class="text-sm text-gray-500 line-through">$199.00</span>
+                    </div>
+                    <!-- Buy Button for Product 2 -->
+                    <a href="product_detail.html?product=smartwatch" class="block w-full bg-green-600 text-white py-3 px-6 rounded-full text-center text-xl font-bold hover:bg-green-700 transition-colors duration-300 shadow-md">
+                        Buy Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 text-center rounded-t-xl mt-8">
+        <p>&copy; 2025 Our Store. All rights reserved.</p>
+        <p class="text-sm mt-2">Privacy Policy | Terms of Service</p>
+    </footer>
+</body>
+</html>
