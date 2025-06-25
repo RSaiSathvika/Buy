@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-YCVY73WXMG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-YCVY73WXMG');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Purchase!</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #e2e8f0; /* Light blue-gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-4">
+    <div class="bg-white rounded-lg shadow-2xl p-8 md:p-12 text-center max-w-md w-full">
+        <div class="text-green-500 mb-6">
+            <!-- Checkmark SVG icon -->
+            <svg class="mx-auto h-24 w-24" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+            </svg>
+        </div>
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Thank You!</h1>
+        <p class="text-lg text-gray-600 mb-6">
+            Your purchase was successful and your order has been placed.
+            You will receive a confirmation email shortly.
+        </p>
+        <!-- Button to go back to the landing page -->
+        <a href="index.html" class="inline-block bg-blue-600 text-white py-3 px-8 rounded-full text-xl font-bold hover:bg-blue-700 transition-colors duration-300 shadow-md">
+            Continue Shopping
+        </a>
+    </div>
+</body>
+</html>
